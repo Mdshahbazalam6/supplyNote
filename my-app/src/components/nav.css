@@ -1,0 +1,23 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.NavbarBox {
+    background-color: black;
+    height: 5vh;
+    color: white;
+}
+
+.NavbarInnerBox {
+    background-color: rgb(18, 193, 150);
+    width: 20vw;
+    display: flex;
+    height: 5vh;
+    justify-content: space-between;
+    padding: 0vh 2vh;
+    align-items: center;
+    margin-left: 80vw;
+}

@@ -1,0 +1,94 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.SignUpBox {
+    position: fixed;
+    background-color: rgb(52, 74, 115);
+    width: 25vw;
+    top: 20vh;
+    left: 39vw;
+    height: 65vh;
+    border-radius: 10px;
+}
+
+.SignUpForm {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 2vh 3vw;
+    width: 20vw;
+    border-radius: 4px;
+}
+
+.SignUpPassword {
+    margin: 1vh 4vh;
+    padding: 1vh;
+    font-weight: 600;
+    font-size: 1vw;
+    border-radius: 5px;
+}
+
+.SignUpEmail {
+    margin: 1vh 4vh;
+    padding: 1vh;
+    font-weight: 600;
+    font-size: 1vw;
+    border-radius: 5px;
+}
+
+.SignUpName {
+    margin: 1vh 4vh;
+    padding: 1vh;
+    font-weight: 600;
+    font-size: 1vw;
+    border-radius: 5px;
+}
+
+label {
+    margin-left: 4vh;
+}
+
+.SignUph3 {
+    text-align: center;
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+}
+
+.SignUpP {
+    text-align: center;
+    margin-bottom: 2vh;
+}
+
+.SignUpbutton {
+    margin: 1vh 6vh;
+    background-color: rgb(74, 193, 163);
+    padding: 1vh;
+    color: white;
+    font-weight: 600;
+    font-size: 1vw;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.SignUpDescription {
+    font-size: 1.7vh;
+    text-align: center;
+    margin: 1vh;
+    line-height: 1.9vh;
+}
+
+.SignUpFormLogin {
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 60vh;
+    font-size: 1.5vh;
+    left: 7vw;
+    margin: 1vh 0vh;
+}

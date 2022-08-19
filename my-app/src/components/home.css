@@ -1,0 +1,53 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.HomeH1 {
+    text-align: center;
+    margin-top: 25vh;
+}
+
+.homeInputContainer {
+    width: 25vw;
+    margin: auto;
+    margin-top: 5vh;
+    height: 5vh;
+
+}
+
+.homeUrlInput {
+    width: 100%;
+    height: 100%;
+}
+
+.HomeButton {
+    width: 10vw;
+    margin: 2vh 6vh;
+    margin-left: 45vw;
+    background-color: rgb(74, 193, 163);
+    padding: 1vh;
+    color: white;
+    font-weight: 600;
+    font-size: 1vw;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.CopyButton {
+    margin-left: 45vw;
+    margin-top: 2vh;
+    width: 10vw;
+    background-color: rgb(74, 193, 163);
+    padding: 1vh;
+    color: white;
+    font-weight: 600;
+    font-size: 1vw;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 3vh;
+}
