@@ -195,7 +195,13 @@ async function fetchShortUrl(req, res) {
                 return res.status(401).send({
                     error: 'url Expired'
                 })
-            } else {
+            } else if(urlData.CountOfaccessing == 20){
+                return res.status(402).send({
+                    error: 'Limit exhausted'
+                })
+            }else {
+                urlData.CountOfaccessing=urlData.CountOfaccessing+1
+                await urlData.save()
                 return res.redirect(urlData.url)
             }
 

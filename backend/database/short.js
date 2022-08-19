@@ -23,8 +23,10 @@ const urlSchema = new mongoose.Schema({
         type: String,
         default: new Date().getMinutes()
     },
-    location: Array,
-    ipAddress: Array
+    CountOfaccessing: {
+        type : Number,
+        default:0
+    },
 })
 
 const userModel = new mongoose.model("Url", urlSchema);
