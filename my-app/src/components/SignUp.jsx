@@ -35,6 +35,7 @@ const Login = ({ showlogin, hideSignUp }) => {
         hideSignUp()
 
       } catch (error) {
+        alert('user Exists')
         console.log(error)
       }
     }
