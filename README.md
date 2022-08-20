@@ -19,7 +19,7 @@ https://supplynote.netlify.app
 •	VS Code <br>
 •	Github <br>
 
-• in Order to run The app user will have start the backend Server manually in http://localhost:8081/
+• in Order to run The app user will have start the node js manually
 
 # Thank You
 
