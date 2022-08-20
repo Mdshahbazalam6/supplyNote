@@ -31,6 +31,9 @@ const Login = ({ showlogin, hideSignUp }) => {
         })
         let user_data = await res.json()
         console.log(user_data)
+        if(user_data.err){
+          return alert('User Exist')
+        }
         hideSignUp()
         hideSignUp()
 
