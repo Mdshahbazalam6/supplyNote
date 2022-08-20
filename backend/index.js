@@ -3,7 +3,7 @@ const cors = require('cors')
 const connectToDatabase = require('./database/index')
 const userRoute = require('./router/user')
 
-// const port = process.env.port || 8081
+
 
 const app = express();
 app.use(cors())
