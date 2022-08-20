@@ -50,6 +50,10 @@ const Navbar = () => {
         getLoggedIn()
     },[])
     console.log(user)
+    const onSignup = ( )=>{
+        setSignUp(false)
+        setLogin(true)
+    }
     return (
         <>
             <div className='NavbarBox'>
@@ -60,7 +64,7 @@ const Navbar = () => {
                     <p onClick={handleShowSignUp}>Sign Up</p>
                 </div>
             </div>
-            {signUp ? <SignUp showlogin={handleShowLogin} hideSignUp={hideSignUp} /> : <></>}
+            {signUp ? <SignUp showlogin={handleShowLogin} hideSignUp={hideSignUp} onSignup={onSignup}/> : <></>}
 
 
             {login ? < Login cut={handleShowLogin} /> : <></>}

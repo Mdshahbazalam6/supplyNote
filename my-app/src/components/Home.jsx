@@ -11,6 +11,7 @@ const Home = () => {
   const [copied, setCopied] = useState(false)
 
   async function getUrl(url) {
+    setCopied(false)
     let token = JSON.parse(localStorage.getItem("token"));
     if (!token) {
       return alert('To get Url SignUp First')
@@ -50,7 +51,8 @@ const Home = () => {
       {shortUrl ? (< CopyToClipboard text={shortUrl.url}
         onCopy={() => setCopied(true)}
       >
-        <button className='CopyButton'>Copy To ClipBoard</button>
+        {copied ?  <button className='CopyButton' style={{backgroundColor:'green'}}>Copy To ClipBoard</button> : <button className='CopyButton'>Copy To ClipBoard</button>}
+       
       </CopyToClipboard>) : <></>}
 
 

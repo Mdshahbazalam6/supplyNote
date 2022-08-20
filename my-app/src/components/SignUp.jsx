@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import './signup.css'
 
-const Login = ({ showlogin, hideSignUp }) => {
+const Login = ({ showlogin, hideSignUp,onSignup }) => {
   const [name, setName] = useState()
   const [email, setemail] = useState()
   const [Password, setPassword] = useState()
@@ -36,6 +36,7 @@ const Login = ({ showlogin, hideSignUp }) => {
         }
         hideSignUp()
         hideSignUp()
+        onSignup()
 
       } catch (error) {
         alert('user Exists')
